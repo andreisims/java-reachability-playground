@@ -2,4 +2,4 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=projectKey -Dsonar.organization=projectOrg -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=token 
+      - mvn verify sonar:sonar -Dsonar.projectKey=devsecops-east_devsecops-east -Dsonar.organization=DevSecOps-East -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=57de5eb31425b7dedcdd2f07e955f6c16b31e36b
